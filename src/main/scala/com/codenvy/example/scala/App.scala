@@ -12,5 +12,7 @@ object SparkMeApp {
 
     val c = lines.count()
     println(s"There are $c lines in $fileName")
+    println("2")
+    
   }
 }
