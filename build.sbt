@@ -8,4 +8,8 @@ scalaVersion := "2.11.0"
 
 libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.0-SNAPSHOT"
 
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "1.5.0" % "provided",
+  "org.apache.spark" %% "spark-streaming" % "1.5.0")
+
 resolvers += Resolver.mavenLocal
